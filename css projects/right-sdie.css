@@ -1,0 +1,78 @@
+.main-layout{
+  
+  display: flex;
+  justify-content: stretch;
+}
+
+.feed{
+  flex: 2;
+  width: 75%;
+}
+
+.right-panel{
+  width: 350px;
+  min-width: 350px;
+  margin-right: 50px;
+}
+
+.popular-communities{
+  position: sticky;
+  top: 65px;
+  height: fit-content;
+  background: rgb(38,37,37);
+  border-radius: 12px;
+  padding: 15px;
+  left: 1100px;
+  margin-right: 50px;
+  background-color: black;
+  padding-bottom: 15px;
+   color: #aba5a5;;
+ 
+}
+.names{
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  margin-top: 5px;
+}
+.side-bar-names {
+  width: 100%;
+}
+
+.side-bar-names button {
+  width: 100%;
+  display: flex;
+  align-items:center ;
+  gap: 12px;
+  padding: 10px;
+  background-color: black;
+  border: none;
+  border-radius: 12px;
+  text-align: left;
+  
+}
+.side-bar-names button p{
+  margin: 0;
+  color: #aba5a5;
+}
+.side-bar-thumbnails {
+  height: 30px;
+  border-radius: 15px;
+}
+
+.names button:hover {
+  background-color: #2a2a2a;
+  cursor: pointer;
+}
+.buttons button{
+  margin-right: 10px;
+  color: aliceblue;
+  background-color: #343333;
+  border: none;
+  border-radius: 15px;
+  padding: 5px 13px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+

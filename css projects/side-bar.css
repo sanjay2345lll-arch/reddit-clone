@@ -1,0 +1,72 @@
+.side-bar{
+  position: fixed ;
+  top:65px;
+  bottom:0;
+  left: 0;
+  width: 255px;
+  background-color:rgb(19, 19, 19);
+  border-right:0.1px solid rgb(76, 75, 75);
+}
+
+.side-bar-1,
+.side-bar-2,
+.side-bar-3{
+  display: flex;
+  flex-direction:column;
+  width:  75%;
+  height: auto;
+ border-bottom: 0.1px solid rgb(76, 75, 75) ;
+ margin-left: 15px;
+}
+
+.side-bar button{
+  height: 50px;
+  background-color:rgb(19, 19, 19);
+  color: white;
+  border: none;
+  margin:0 45px 0 10px;
+  text-align: left;
+  padding-left: 30px;
+  width:105%;
+  font-family: arial,'roboto';
+  font-weight:200;
+  font-size: 15px;
+}
+.side-bar button:hover{
+  background-color:rgb(38, 37, 37);;
+  border-radius: 15px;
+}
+.side-bar::-webkit-scrollbar{
+  width: 8px;
+}
+.side-bar::-webkit-scrollbar-thumb{
+  background-color:rgb(162, 157, 157);
+  width: 1px;
+}
+.side-bar::-webkit-scrollbar-track{
+  background-color:rgb(76, 74, 74);
+  width: 2px;
+}
+.side-bar:hover{
+  overflow-y:auto;
+}
+@media(max-width:1128px){
+.side-bar{
+  display: none;
+}
+.right-panel{
+  display: none;
+}
+}
+@media(min-width:1128px){
+  .main-layout{
+  margin-left: 265px;
+  width: 1005;
+}
+}
+@media(max-width:1128px){
+  .main-layout{
+  margin: 0;
+  
+}
+}

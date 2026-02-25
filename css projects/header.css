@@ -1,0 +1,115 @@
+.header{
+  display: flex;  
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 55px;
+  position: fixed;
+  left: 0;
+  right:0;
+  top:0;
+  bottom:55px;
+  z-index: 2;
+  background-color: rgb(19, 19, 19);
+  border-bottom: 0.1px solid  rgb(76, 75, 75);
+ 
+}
+.l-side{
+  flex:0 50px 0px;
+  padding-top: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 20px;
+}
+.three-dash{
+  display: flex;
+  align-items: center;
+  height:20px;
+  padding-left: 20px;
+  height: 25px;
+}
+
+
+.logo-name{
+  display: flex;
+  align-items: center;
+  font-family: 'roboto',arial,'reddits sans';
+  font-weight: 700;
+  font-size: 29px;
+  padding-left: 18px;
+}
+@media(max-width:950px){
+  .logo-name{
+    display: none;
+  }
+}
+.centre-side{
+  flex:1;
+  max-width: 600px;
+  margin-left: 15px;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.r-side{
+  display: flex;
+  flex:0 0 150px;
+  align-items: center;
+  justify-content: center;
+}
+.search-box{
+  height:35px;
+  flex: 1;
+  border-radius: 30px;
+  border: none;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(199, 103, 25);
+  background-color: rgb(20, 20, 20);
+  text-align: center;
+  align-items:center ;
+}
+.login-button{
+  border-radius: 30px;;
+  color: white;
+  background-color: orangered;
+  border-style: solid;
+  border:none;
+  height: 40px;
+  width: 70px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size:small;
+}
+.button-1{
+  background-color: rgb(19, 19, 19);
+  color:white;
+  border: none;
+  padding-left: 20px;
+  font-size: 25px;
+}
+.get-app{
+   border-radius: 30px;;
+  color: white;
+  background-color: rgb(52, 51, 51);
+  border-style: solid;
+  border:none;
+  height: 40px;
+  width: 90px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size:small;
+  margin-right: 20px;
+}
+@media(max-width:1056px){
+  .get-app{
+    display: none
+  } 
+}
+ @media(min-width:1250px){
+      .three-dash{
+        display: none;
+      }
+     }
